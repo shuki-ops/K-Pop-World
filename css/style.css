@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@1,300&display=swap');
+h2, h3{
+  font-family: 'Dancing Script', cursive;
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Header, footer */
+
+header, footer {
+  background-color: #3763cd;
+}
+.navbar-brand {
+ font-size: 18px;
+ font-weight: 600;
+}
+.nav-link, .dropdown-item {
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+nav li {
+ padding: 0 18px;
+}
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
